@@ -17,4 +17,3 @@ car-condition-prediction/
 ├── README.md            # Project documentation
 ├── requirements.txt     # Python dependencies (e.g., TensorFlow, PyTorch, etc.)
 └── model/               # Trained model files (weights, checkpoints)
-
