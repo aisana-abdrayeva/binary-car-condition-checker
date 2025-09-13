@@ -1,0 +1,20 @@
+car-condition-prediction/
+│
+├── data/                # Folder containing the dataset (images)
+│   ├── train/
+│   ├── test/
+│   └── labels/
+│
+├── src/                 # Source code for model training and inference
+│   ├── train_model.py   # Script to train the model
+│   ├── predict.py       # Script to make predictions on new photos
+│   ├── utils.py         # Helper functions for image processing, etc.
+│   └── config.py        # Configuration file for model hyperparameters
+│
+├── demo/                # Folder for demo script or interface
+│   └── app.py           # Simple app to upload and predict
+│
+├── README.md            # Project documentation
+├── requirements.txt     # Python dependencies (e.g., TensorFlow, PyTorch, etc.)
+└── model/               # Trained model files (weights, checkpoints)
+
